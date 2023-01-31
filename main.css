@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+body{
+    border: 3px solid rebeccapurple;
+    background-color: rgb(189, 60, 60);
+}
+
+.sub-cust{
+    background-color: rgb(238, 135, 9);
+    color: white;
+}
+
+.col-gen, span{
+    color: rgb(45, 143, 235);
+}
+
+.col-gen, span{
+    color: rgb(45, 143, 235);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.foot-item-st{
+    color: rgb(45, 143, 235);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cont-spac{
+    margin: 50px;
+}
+
+.read-mor{
+    background-color: rgb(219, 216, 216);
+    color: rgb(45, 143, 235);
+    padding: 10px 10px 4px 22px ;
+    width: 100%;
+
+}
+
+.font-bac{
+    height: 600px;
+    background-image: url(images/headerback.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 100px
+}
+
+.bloc-flou{
+    background-color: rgba(255, 255, 255, 0.685);
+}
+
+.col-title-block{
+    color: rgb(45, 143, 235);
+    padding: 30px;
+
+    font-size: 50px;
+}
+
+.user-pre{
+    border-left-color: 3px solide rgb(7, 116, 70);
+    padding: 100px;
+}
+
+.resp{
+    border-right: 4px solid rgb(45, 143, 235);
+}
+
+.ligne-franche {
+    background: linear-gradient(to bottom left,  rgb(45, 143, 235) 70%, white 30%);
+
+}
+
+.use-titre{
+    color: rgb(7, 116, 70);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.con-dime{
+    color: rgb(45, 143, 235);
+    font-size: 50px;
+}
+
+.foot-pos{
+    padding: 100px;
+}
+
+.profil-user{
+    border-radius: 150px;
+    border-left: 4px solid rgb(7, 116, 70);
+}
+
+.illu-img{
+    padding: 200px;
+}
+
+img{
+    padding: 6px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .font-bac{
+        height: 600px;
+        background-image: url(images/headerback.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Fira Sans', sans-serif;
+        margin-top: 10px
+    }
+
+    .illu-img{
+        padding: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .font-bac{
+        height: 600px;
+        background-image: url(images/headerback.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Fira Sans', sans-serif;
+        margin-top: 10px
+    }
+
+    .illu-img{
+        padding: 20px;
+    }
+
+}
+
+
+
+
+
+
